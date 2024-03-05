@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-center "> <h1 class="">regestration form</h1><br><br>
+    <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationDefault01"  required>
+        </div>
+        <br><br>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">secend name</label>
+          <input type="text" class="form-control" id="validationDefault02"  required>
+        </div><br><br>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">third name</label>
+          <input type="text" class="form-control" id="validationDefault02"  required>
+        </div><br><br>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">email</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control" id="validationDefaultemail" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div>
+          <br><br>
+          <h2>inter Your Birth Date</h2>
+            <label for="user birthdate day">day</label>
+<select  id="user birthdate day"></select>
+<br><br>
+    <label for="user birthdate month">month</label>
+    <select  id="user birthdate month"></select>
+<br><br>
+        <label for="user birthdate year">year</label>
+        <select  id="user birthdate year">
+
+</select>        
+</div>
+<br><br>
+        <div class="col-md-6z">
+          <label for="validationDefault03" class="form-label">company name</label>
+          <input type="text" class="form-control" id="validationDefault03" required>
+        </div>
+        <br>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">job name</label>
+          <br>
+          <input type="text" class="form-control" id="validationDefault03" required>
+
+            <br><br>
+        
+          </select>
+        </div>
+        <br>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">salary</label>
+          <input type="text" class="form-control" id="validationDefault05" required>
+        </div><br><br>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input " type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+        <br><br>
+        <div class="col-12">
+          <button class="btn btn-primary shadow rounded-4" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div> 
+   <script src="./js/main.js"></script> 
+</body>
+</html>
